@@ -77,7 +77,7 @@ const config = {
         title: 'Nextjs Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Nextjs-logo.svg.png'
         },
         items: [
           {
