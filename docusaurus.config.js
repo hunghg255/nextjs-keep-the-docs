@@ -72,12 +72,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/Nextjs-logo.svg.png',
+      image: 'img/next-logo.png',
       navbar: {
         title: 'Nextjs Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Nextjs-logo.svg.png'
+          src: 'img/next-logo.png'
         },
         items: [
           {
@@ -97,18 +97,23 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/getting-started',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Getting Started',
+          //       to: '/docs/getting-started',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
