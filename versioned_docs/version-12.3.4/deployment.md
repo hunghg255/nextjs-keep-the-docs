@@ -1,5 +1,6 @@
 ---
 description: Learn how to deploy your Next.js app to production, either managed or self-hosted.
+sidebar_position: 10
 ---
 
 # Deployment

@@ -1,5 +1,6 @@
 ---
 description: Get to know more about Next.js with the frequently asked questions.
+sidebar_position: 100
 ---
 
 # Frequently Asked Questions
