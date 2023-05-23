@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://nextjs-keep-the-docs.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'nextjs', // Usually your GitHub org/user name.
+  projectName: 'nextjs', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
@@ -40,8 +40,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({ versionDocsDirPath, docPath }) =>
+          `https://github.com/hunghg255/nextjs-keep-the-docs/tree/master/${versionDocsDirPath}/${docPath}`,
           lastVersion: 'current',
           versions: {
             current: {
@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Nextjs-logo.svg.png',
       navbar: {
         title: 'Nextjs Docs',
         logo: {
@@ -87,7 +87,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/vercel/next.js',
+            href: 'https://github.com/hunghg255/nextjs-keep-the-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,8 +104,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/getting-started',
               },
             ],
           },
@@ -113,17 +113,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Nextjs',
+                href: 'https://github.com/vercel/next.js',
+              }
             ],
           }
         ],
