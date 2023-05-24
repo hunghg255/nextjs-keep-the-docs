@@ -42,13 +42,14 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: ({ versionDocsDirPath, docPath }) =>
           `https://github.com/hunghg255/nextjs-keep-the-docs/tree/master/${versionDocsDirPath}/${docPath}`,
-          lastVersion: 'current',
-          versions: {
-            current: {
-              label: '12.3.4',
-              path: '12.3.4',
-            },
-          },
+          editCurrentVersion: true,
+          // lastVersion: 'current',
+          // versions: {
+          //   current: {
+          //     label: '12.3.4',
+          //     path: '12.3.4',
+          //   },
+          // },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
